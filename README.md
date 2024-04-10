@@ -1,2 +1,1 @@
-# liumq12.github.io
-Personal website
+# liumq.github.io
