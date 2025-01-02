@@ -2,8 +2,6 @@
 layout: homepage
 ---
 
-<h1 id="about-me">About Me</h1>
-
 <h2 style="margin: 80px 0px 10px;">Welcome!</h2>
 
 <p>
