@@ -24,7 +24,7 @@ My areas of expertise include:
 </p>
 
 <p>
-I earned my PhD in Geodynamics from <a href="https://gfd.ethz.ch/" target="_blank">ETH Zurich</a>, where I developed extensive expertise in geodynamics.
+I earned my PhD in Geodynamics from <a href="https://gfd.ethz.ch/" target="_blank">ETH Zurich</a>, where I developed extensive expertise in numerical simulations.
 </p>
 
 {% include_relative _includes/news.md %}
