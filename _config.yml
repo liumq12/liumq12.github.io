@@ -1,0 +1,41 @@
+# Basic Information
+title: Mingqi Liu
+position: Postdoctoral Scholar
+affiliation: University of Southern California
+affiliation_link: https://dornsife.usc.edu/earth/
+email: ml_013@usc.edu
+
+# Search Engine Optimization (SEO)
+keywords: mingqi liu, liu mingqi, mingqiliu, liumingqi, tectonics, earthquake modeling, DAS seismology, fault mechanics
+canonical: https://dornsife.usc.edu/profile/mingqi-liu/
+affiliation_logo: ./assets/img/USC_Logo.svg
+description: Mingqi Liu, a Postdoctoral Scholar at the University of Southern California, specializes in tectonic deformation, earthquake simulation, and DAS seismology.
+
+# Template Options
+enable_last_update: false   # Enable to display the last updated timestamp
+
+# Links
+link_type: icon # Options: text or icon
+google_scholar: https://scholar.google.com/citations?user=kEc2UMgAAAAJ&hl=en
+github_link: https://github.com/liumq12
+# linkedin: https://www.linkedin.com/in/mingqi-liu/ # Example placeholder
+# twitter: https://twitter.com/mingqi_liu # Example placeholder
+
+# Images
+avatar: ../assets/img/Photo_website.JPG
+
+# Footnotes
+footnote: Feel free to use the source code for my website.
+footnote_link: https://github.com/liumq12/liumq12.github.io
+
+# Analytics
+# Remove the following lines if you fork this project to avoid analytics being recorded in my accounts.
+# clustrmaps_id: CJD8XwsJhSyQ6sbsU-Gw0cNcUlbah7KW3xvHN2QlwW0
+
+# Exclude Files
+exclude:
+  - build.sh
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE

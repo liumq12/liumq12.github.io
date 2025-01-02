@@ -1,0 +1,29 @@
+main:
+
+  - title: "Forced Subduction Initiation Near Spreading Centers: Effects of Brittle-Ductile Damage"
+    authors: Mingqi Liu*, Taras Gerya
+    conference_short: JGR - Solid Earth
+    conference: JGR - Solid Earth, 2023
+    pdf: https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2022JB024701
+    image: ../assets/teaser/Liu_2022_JGR.png
+
+  - title: "Self-organization of magma supply controls crustal thickness variation and tectonic pattern along melt-poor mid-ocean ridges"
+    authors: Mingqi Liu*, Taras Gerya, Antoine Billy Rozel
+    conference_short: EPSL
+    conference: Earth and Planetary Science Letters, 2022
+    pdf: https://www-sciencedirect-com.libproxy2.usc.edu/science/article/pii/S0012821X22001182
+    image: ../assets/teaser/Liu_2022_EPSL.jpg
+
+  - title: "Vertical tearing of subducting plates controlled by geometry and rheology of oceanic plates"
+    authors: Yaguang Chen, Hanlin Chen*, Mingqi Liu*, Taras Gerya*
+    conference_short: NC
+    conference: Nature Communications, 2023
+    pdf: https://www.nature.com/articles/s41467-023-43804-z
+    image: ../assets/teaser/Liu_2023_tear.png
+
+  - title: "Low-degree mantle melting controls the deep seismicity and explosive volcanism of the Gakkel Ridge"
+    authors: Ivan Koulakov, Vera Schlindwein, Mingqi Liu, Taras Gerya, Andrey Jakovlev, Aleksey Ivanov
+    conference_short: NC
+    conference: Nature Communications, 2022
+    pdf: https://www.nature.com/articles/s41467-022-30797-4
+    image: ../assets/teaser/Liu_2022_NC.png
