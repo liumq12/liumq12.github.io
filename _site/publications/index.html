@@ -30,8 +30,10 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/pub.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="../assets/css/modal.css">
     
     <script src="../assets/js/github-stars.js"></script>
+    <script src="../assets/js/modal.js" defer></script>
     <script type="text/javascript" src="../assets/js/jquery.js"></script>
     <script src="../assets/js/favicon-switcher.js" type="application/javascript"></script>
     
@@ -175,6 +177,23 @@
       <!-- Include the Presentations content from the _includes directory -->
 <h1 id="publications"></h1>
 
+<!-- In Preparation Section -->
+<h2 style="margin: 60px 0px -15px;">
+  In Preparation
+</h2>
+
+<div class="publications">
+  <ul style="position: relative; padding-right: 15px; padding-left: 15px;">
+    <li style="font-size: 1.1em; margin: 10px 0; padding: 2px;">
+      Liu and Barbot, <em>(Under Review).</em> Role of hydrothermal alteration and thermally activated healing for seismic swarms generation along slow oceanic transform faults
+    </li>
+    <li style="font-size: 1.1em; margin: 10px 0; padding: 2px;">
+      Liu et al., <em>(In Preparation).</em> Lithology, friction, and fault dynamics: a physical framework for Southern California seismicity
+    </li>
+  </ul>
+</div>
+
+<!-- Selected Publications Section -->
 <h2 style="margin: 60px 0px -15px;">
   Selected publications 
   <span style="font-size: 15px;">
@@ -188,18 +207,17 @@
 
 
 <li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="../assets/teaser/Liu_2025_MOR.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">Tectonics</abbr>
+  <div class="pub-row">
+    <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+      <img src="../assets/teaser/Liu_2025_MOR.png" class="teaser img-fluid z-depth-1 zoomable" style="width=100;height=40%; object-fit: cover; cursor: pointer; border-radius: 5px;" onclick="openModal('../assets/teaser/Liu_2025_MOR.png')" />
+      <abbr class="badge">Tectonics</abbr>
+    </div>
+    <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+        <div class="title"><a href="https://doi.org/10.1029/2024TC008586" target="_blank">The Effect of Brittle-Ductile Weakening on the Formation of Faulting Patterns at Mid-Ocean Ridges</a></div>
+        <div class="author">Mingqi Liu*, Taras Gerya, Antoine Rozel</div>
+        <div class="periodical"><em>Tectonics, 2025</em></div>
+    </div>
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://doi.org/10.1029/2024TC008586">The Effect of Brittle-Ductile Weakening on the Formation of Faulting Patterns at Mid-Ocean Ridges</a></div>
-      <div class="author">Mingqi Liu*, Taras Gerya, Antoine Rozel</div>
-      <div class="periodical"><em>Tectonics, 2025</em>
-      </div>
-  </div>
-</div>
 </li>
 
 <br />
@@ -207,18 +225,17 @@
 
 
 <li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="../assets/teaser/Liu_2022_JGR.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">JGR - Solid Earth</abbr>
+  <div class="pub-row">
+    <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+      <img src="../assets/teaser/Liu_2022_JGR.png" class="teaser img-fluid z-depth-1 zoomable" style="width=100;height=40%; object-fit: cover; cursor: pointer; border-radius: 5px;" onclick="openModal('../assets/teaser/Liu_2022_JGR.png')" />
+      <abbr class="badge">JGR - Solid Earth</abbr>
+    </div>
+    <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+        <div class="title"><a href="https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2022JB024701" target="_blank">Forced Subduction Initiation Near Spreading Centers: Effects of Brittle-Ductile Damage</a></div>
+        <div class="author">Mingqi Liu*, Taras Gerya</div>
+        <div class="periodical"><em>JGR - Solid Earth, 2023</em></div>
+    </div>
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2022JB024701">Forced Subduction Initiation Near Spreading Centers: Effects of Brittle-Ductile Damage</a></div>
-      <div class="author">Mingqi Liu*, Taras Gerya</div>
-      <div class="periodical"><em>JGR - Solid Earth, 2023</em>
-      </div>
-  </div>
-</div>
 </li>
 
 <br />
@@ -226,18 +243,17 @@
 
 
 <li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="../assets/teaser/Liu_2022_EPSL.jpg" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">EPSL</abbr>
+  <div class="pub-row">
+    <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+      <img src="../assets/teaser/Liu_2022_EPSL.jpg" class="teaser img-fluid z-depth-1 zoomable" style="width=100;height=40%; object-fit: cover; cursor: pointer; border-radius: 5px;" onclick="openModal('../assets/teaser/Liu_2022_EPSL.jpg')" />
+      <abbr class="badge">EPSL</abbr>
+    </div>
+    <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+        <div class="title"><a href="https://www-sciencedirect-com.libproxy2.usc.edu/science/article/pii/S0012821X22001182" target="_blank">Self-organization of magma supply controls crustal thickness variation and tectonic pattern along melt-poor mid-ocean ridges</a></div>
+        <div class="author">Mingqi Liu*, Taras Gerya, Antoine Billy Rozel</div>
+        <div class="periodical"><em>Earth and Planetary Science Letters, 2022</em></div>
+    </div>
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://www-sciencedirect-com.libproxy2.usc.edu/science/article/pii/S0012821X22001182">Self-organization of magma supply controls crustal thickness variation and tectonic pattern along melt-poor mid-ocean ridges</a></div>
-      <div class="author">Mingqi Liu*, Taras Gerya, Antoine Billy Rozel</div>
-      <div class="periodical"><em>Earth and Planetary Science Letters, 2022</em>
-      </div>
-  </div>
-</div>
 </li>
 
 <br />
@@ -245,18 +261,17 @@
 
 
 <li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="../assets/teaser/Liu_2022_NC.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">NC</abbr>
+  <div class="pub-row">
+    <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+      <img src="../assets/teaser/Liu_2022_NC.png" class="teaser img-fluid z-depth-1 zoomable" style="width=100;height=40%; object-fit: cover; cursor: pointer; border-radius: 5px;" onclick="openModal('../assets/teaser/Liu_2022_NC.png')" />
+      <abbr class="badge">NC</abbr>
+    </div>
+    <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+        <div class="title"><a href="https://www.nature.com/articles/s41467-022-30797-4" target="_blank">Low-degree mantle melting controls the deep seismicity and explosive volcanism of the Gakkel Ridge</a></div>
+        <div class="author">Ivan Koulakov, Vera Schlindwein, Mingqi Liu, Taras Gerya, Andrey Jakovlev, Aleksey Ivanov</div>
+        <div class="periodical"><em>Nature Communications, 2022</em></div>
+    </div>
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://www.nature.com/articles/s41467-022-30797-4">Low-degree mantle melting controls the deep seismicity and explosive volcanism of the Gakkel Ridge</a></div>
-      <div class="author">Ivan Koulakov, Vera Schlindwein, Mingqi Liu, Taras Gerya, Andrey Jakovlev, Aleksey Ivanov</div>
-      <div class="periodical"><em>Nature Communications, 2022</em>
-      </div>
-  </div>
-</div>
 </li>
 
 <br />
@@ -264,18 +279,17 @@
 
 
 <li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="../assets/teaser/Liu_2023_tear.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">NC</abbr>
+  <div class="pub-row">
+    <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+      <img src="../assets/teaser/Liu_2023_tear.png" class="teaser img-fluid z-depth-1 zoomable" style="width=100;height=40%; object-fit: cover; cursor: pointer; border-radius: 5px;" onclick="openModal('../assets/teaser/Liu_2023_tear.png')" />
+      <abbr class="badge">NC</abbr>
+    </div>
+    <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+        <div class="title"><a href="https://www.nature.com/articles/s41467-023-43804-z" target="_blank">Vertical tearing of subducting plates controlled by geometry and rheology of oceanic plates</a></div>
+        <div class="author">Yaguang Chen, Hanlin Chen*, Mingqi Liu*, Taras Gerya*</div>
+        <div class="periodical"><em>Nature Communications, 2023</em></div>
+    </div>
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://www.nature.com/articles/s41467-023-43804-z">Vertical tearing of subducting plates controlled by geometry and rheology of oceanic plates</a></div>
-      <div class="author">Yaguang Chen, Hanlin Chen*, Mingqi Liu*, Taras Gerya*</div>
-      <div class="periodical"><em>Nature Communications, 2023</em>
-      </div>
-  </div>
-</div>
 </li>
 
 <br />
@@ -283,18 +297,17 @@
 
 
 <li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="../assets/teaser/Liu_2018_SCES.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">SCES</abbr>
+  <div class="pub-row">
+    <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+      <img src="../assets/teaser/Liu_2018_SCES.png" class="teaser img-fluid z-depth-1 zoomable" style="width=100;height=40%; object-fit: cover; cursor: pointer; border-radius: 5px;" onclick="openModal('../assets/teaser/Liu_2018_SCES.png')" />
+      <abbr class="badge">SCES</abbr>
+    </div>
+    <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+        <div class="title"><a href="https://link.springer.com/article/10.1007/s11430-017-9184-x" target="_blank">Dynamics of thinning and destruction of the continental cratonic lithosphere: Numerical modeling</a></div>
+        <div class="author">Mingqi Liu, Zhonghai Li</div>
+        <div class="periodical"><em>Science China Earth Sciences, 2018</em></div>
+    </div>
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://link.springer.com/article/10.1007/s11430-017-9184-x">Dynamics of thinning and destruction of the continental cratonic lithosphere: Numerical modeling</a></div>
-      <div class="author">Mingqi Liu, Zhonghai Li</div>
-      <div class="periodical"><em>Science China Earth Sciences, 2018</em>
-      </div>
-  </div>
-</div>
 </li>
 
 <br />
@@ -302,28 +315,25 @@
 
 
 <li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="../assets/teaser/Liu_2017_JAES.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">JAES</abbr>
+  <div class="pub-row">
+    <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+      <img src="../assets/teaser/Liu_2017_JAES.png" class="teaser img-fluid z-depth-1 zoomable" style="width=100;height=40%; object-fit: cover; cursor: pointer; border-radius: 5px;" onclick="openModal('../assets/teaser/Liu_2017_JAES.png')" />
+      <abbr class="badge">JAES</abbr>
+    </div>
+    <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+        <div class="title"><a href="https://drive.google.com/file/d/1D6ikD5eQ3STtQ0y34d6QCd48ELX-nFAT/view" target="_blank">Diapir versus along-channel ascent of crustal material during plate convergence: Constrained by the thermal structure of subduction zones</a></div>
+        <div class="author">Ming-Qi Liu, Zhong-Hai Li, Shao-Hua Yang</div>
+        <div class="periodical"><em>Journal of Asian Earth Sciences, 2017</em></div>
+    </div>
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://drive.google.com/file/d/1D6ikD5eQ3STtQ0y34d6QCd48ELX-nFAT/view">Diapir versus along-channel ascent of crustal material during plate convergence: Constrained by the thermal structure of subduction zones</a></div>
-      <div class="author">Ming-Qi Liu, Zhong-Hai Li, Shao-Hua Yang</div>
-      <div class="periodical"><em>Journal of Asian Earth Sciences, 2017</em>
-      </div>
-  </div>
-</div>
 </li>
 
 <br />
-
 
 
 
 </ol>
 </div>
-
 
 
       <br>
