@@ -15,7 +15,7 @@ My areas of expertise include:
   <li>The opening and closure of mid-ocean ridges</li>
   <li>Subduction zone destruction</li>
   <li>Earthquake cycle simulation</li>
-  <li>Frictional laws and their applications</li>
+  <li>Frictional laws and physical mechanisms</li>
   <li>Grain size reduction mechanisms</li>
   <li>Advanced numerical modeling techniques</li>
 </ul>

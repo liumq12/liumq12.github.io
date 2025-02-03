@@ -1,29 +1,50 @@
 main:
 
+  - title: "The Effect of Brittle-Ductile Weakening on the Formation of Faulting Patterns at Mid-Ocean Ridges"
+    authors: Mingqi Liu*, Taras Gerya, Antoine Rozel
+    journal_short: Tectonics
+    journal: Tectonics, 2025
+    pdf: https://doi.org/10.1029/2024TC008586
+    image: ../assets/teaser/Liu_2025_MOR.png
+
   - title: "Forced Subduction Initiation Near Spreading Centers: Effects of Brittle-Ductile Damage"
     authors: Mingqi Liu*, Taras Gerya
-    conference_short: JGR - Solid Earth
-    conference: JGR - Solid Earth, 2023
+    journal_short: JGR - Solid Earth
+    journal: JGR - Solid Earth, 2023
     pdf: https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2022JB024701
     image: ../assets/teaser/Liu_2022_JGR.png
 
   - title: "Self-organization of magma supply controls crustal thickness variation and tectonic pattern along melt-poor mid-ocean ridges"
     authors: Mingqi Liu*, Taras Gerya, Antoine Billy Rozel
-    conference_short: EPSL
-    conference: Earth and Planetary Science Letters, 2022
+    journal_short: EPSL
+    journal: Earth and Planetary Science Letters, 2022
     pdf: https://www-sciencedirect-com.libproxy2.usc.edu/science/article/pii/S0012821X22001182
     image: ../assets/teaser/Liu_2022_EPSL.jpg
 
+  - title: "Low-degree mantle melting controls the deep seismicity and explosive volcanism of the Gakkel Ridge"
+    authors: Ivan Koulakov, Vera Schlindwein, Mingqi Liu, Taras Gerya, Andrey Jakovlev, Aleksey Ivanov
+    journal_short: NC
+    journal: Nature Communications, 2022
+    pdf: https://www.nature.com/articles/s41467-022-30797-4
+    image: ../assets/teaser/Liu_2022_NC.png
+
   - title: "Vertical tearing of subducting plates controlled by geometry and rheology of oceanic plates"
     authors: Yaguang Chen, Hanlin Chen*, Mingqi Liu*, Taras Gerya*
-    conference_short: NC
-    conference: Nature Communications, 2023
+    journal_short: NC
+    journal: Nature Communications, 2023
     pdf: https://www.nature.com/articles/s41467-023-43804-z
     image: ../assets/teaser/Liu_2023_tear.png
 
-  - title: "Low-degree mantle melting controls the deep seismicity and explosive volcanism of the Gakkel Ridge"
-    authors: Ivan Koulakov, Vera Schlindwein, Mingqi Liu, Taras Gerya, Andrey Jakovlev, Aleksey Ivanov
-    conference_short: NC
-    conference: Nature Communications, 2022
-    pdf: https://www.nature.com/articles/s41467-022-30797-4
-    image: ../assets/teaser/Liu_2022_NC.png
+  - title: "Dynamics of thinning and destruction of the continental cratonic lithosphere: Numerical modeling"
+    authors: Mingqi Liu, Zhonghai Li
+    journal_short: SCES
+    journal: Science China Earth Sciences, 2018
+    pdf: https://link.springer.com/article/10.1007/s11430-017-9184-x
+    image: ../assets/teaser/Liu_2018_SCES.png
+
+  - title: "Diapir versus along-channel ascent of crustal material during plate convergence: Constrained by the thermal structure of subduction zones"
+    authors: Ming-Qi Liu, Zhong-Hai Li, Shao-Hua Yang
+    journal_short: JAES
+    journal: Journal of Asian Earth Sciences, 2017
+    pdf: https://drive.google.com/file/d/1D6ikD5eQ3STtQ0y34d6QCd48ELX-nFAT/view
+    image: ../assets/teaser/Liu_2017_JAES.png
