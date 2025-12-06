@@ -2,19 +2,35 @@
 
 <!-- In Preparation Section -->
 <h2 style="margin: 60px 0px -15px;">
-  In Preparation
+  Under review / In Preparation
 </h2>
 
 <div class="publications">
   <ul style="position: relative; padding-right: 15px; padding-left: 15px;">
+
     <li style="font-size: 1.1em; margin: 10px 0; padding: 2px;">
-      Liu and Barbot, <em>(Under Review).</em> Role of hydrothermal alteration and thermally activated healing for seismic swarms generation along slow oceanic transform faults
+      Liu, M., Wang, B., Guvercin, S., Li, Z., Wang, T., Liu, C., Ji, L., Barbot, S. 
+      Dynamic segmentation of the Sagaing fault. 
     </li>
+
     <li style="font-size: 1.1em; margin: 10px 0; padding: 2px;">
-      Liu et al., <em>(In Preparation).</em> Lithology, friction, and fault dynamics: a physical framework for Southern California seismicity
+      Liu, M., Gerya, T., Li, Z.-H., Chen, L., Connolly, J. 
+      Deciphering grain size reduction as a driver of Mid-lithosphere discontinuity formation. 
     </li>
+
+    <li style="font-size: 1.1em; margin: 10px 0; padding: 2px;">
+      Liu, M., Wang, B., Wu, B., Guvercin, S., Zhang, L., Yang, Z., Seyler, C., Platt, J., Barbot, S. 
+      A rock-centric framework for earthquake dynamics. 
+    </li>
+
+    <li style="font-size: 1.1em; margin: 10px 0; padding: 2px;">
+      Liu, M., Yuan, Q., Duan, B., Maguire, R. 
+      From fault system to Marsquake dynamics: a geodynamic-seismic framework.
+    </li>
+
   </ul>
 </div>
+
 
 <!-- Selected Publications Section -->
 <h2 style="margin: 60px 0px -15px;">

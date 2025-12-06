@@ -1,5 +1,12 @@
 main:
 
+  - title: "Role of hydrothermal alteration and thermally activated healing on earthquake dynamics along oceanic transform faults"
+    authors: Mingqi Liu*, Sylvain Barbot
+    journal_short: EPSL
+    journal: Earth and Planetary Science Letters, 2025
+    pdf: https://authors.elsevier.com/a/1mDmS,Ig4cmC-
+    image: ../assets/teaser/Liu_2025_OTF.png
+
   - title: "The Effect of Brittle-Ductile Weakening on the Formation of Faulting Patterns at Mid-Ocean Ridges"
     authors: Mingqi Liu*, Taras Gerya, Antoine Rozel
     journal_short: Tectonics
