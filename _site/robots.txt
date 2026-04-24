@@ -7,7 +7,6 @@ Disallow: /assets/fontawesome/
 Disallow: /assets/js/
 Disallow: /assets/mpii_files/
 Disallow: /images/
-Disallow: /google_scholar_crawler/
 Disallow: /404.html
 Disallow: /LICENSE
 Disallow: /.gitignore

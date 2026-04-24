@@ -21,10 +21,12 @@
     <meta name="twitter:image" content="{{ site.avatar }}">
 
     <link rel="canonical" href="{{ site.canonical }}{{ page.permalink }}"/>
-    <link rel="icon" href="../assets/img/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="../assets/img/web_icon.svg">
+    <link rel="shortcut icon" href="../assets/img/web_icon.svg">
+    <link rel="apple-touch-icon" href="../assets/img/web_icon.svg">
     <link rel="manifest" href="../assets/img/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#0b1933">
+    <meta name="theme-color" content="#0b1933">
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -35,7 +37,6 @@
     <script src="../assets/js/github-stars.js"></script>
     <script src="../assets/js/modal.js" defer></script>
     <script type="text/javascript" src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/favicon-switcher.js" type="application/javascript"></script>
     
     <script type="text/javascript">
       function toggle_vis(id) {
@@ -58,16 +59,18 @@
       }
       }
 
-      function reverseLinks() {
-    var container = document.getElementById("myLinks");
-    var links = Array.from(container.getElementsByTagName('a'));
-    container.innerHTML = '';
-    for (var i = links.length - 1; i >= 0; i--) {
-      container.appendChild(links[i]);
-    }
-  }
    </script>
    
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNJWPFY972"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-GNJWPFY972');
+   </script>
+
    
 
   </head>
@@ -75,13 +78,23 @@
     
     <div class="topnav">
 
-      <a href="{{ site.affiliation_link }}"><img width="120" src="../{{ site.affiliation_logo }}"></a>
+      <a href="{{ site.affiliation_link }}" class="brand-link">
+        {% if site.affiliation_logo %}
+        {% if site.affiliation_logo contains 'http' %}
+        <img width="120" src="{{ site.affiliation_logo }}" alt="{{ site.affiliation }}">
+        {% else %}
+        <img width="120" src="../{{ site.affiliation_logo }}" alt="{{ site.affiliation }}">
+        {% endif %}
+        {% else %}
+        <span class="brand-text">{{ site.affiliation }}</span>
+        {% endif %}
+      </a>
 
       <div id="myLinks">
       {% include navigation.md %}
       </div>
 
-      <a href="javascript:void(0);" class="icon" onclick="myFunction();reverseLinks()">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
       
@@ -90,30 +103,31 @@
 
     <script src="../assets/js/vanilla-back-to-top.min.js"></script>
     <script>addBackToTop({
-        backgroundColor: '#fff',
-        innerHTML: 'Back to Top',
-        textColor: '#333'
+        backgroundColor: '#11264d',
+        innerHTML: 'Top',
+        textColor: '#f7f3eb'
       })
     </script>
     <style>
         #back-to-top {
-          border: 1px solid #ccc;
-          border-radius: 0;
-          font-size: 15px;
-          width: 100px;
+          border: 1px solid rgba(255, 255, 255, 0.16);
+          border-radius: 999px;
+          font-size: 14px;
+          width: 64px;
           text-align: center;
-          line-height: 30px;
-          height: 30px;
+          line-height: 38px;
+          height: 38px;
+          box-shadow: 0 16px 30px rgba(8, 16, 36, 0.25);
         }
     </style>
     
     <div class="wrapper">
       <header>
         
+        <div class="profile-card">
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
-
         <h1>{{ site.title }}</h1>
 
         {% if site.position %}
@@ -121,7 +135,7 @@
         <br>
         {% endif %}
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>University of <br> Southern California</autocolor></a>
+        <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
         {% endif %}
         {% if site.email %}
@@ -138,8 +152,6 @@
         {% if site.link_type == 'text' %}
         [<a href="{{ site.google_scholar }}">Google Scholar</a>]
         <br>
-        [<a href="{{ site.cv_link }}">Curriculum Vitae</a>]
-        <br>
         {% endif %}
 
         {% if site.link_type == 'icon' %}
@@ -150,9 +162,9 @@
         </a>  
         {% endif %}
 
-        {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+        {% if site.orcid %}
+        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
+          <i class="fab fa-orcid"></i>
         </a>
         {% endif %}
 
@@ -176,6 +188,7 @@
         </div>
         {% endif %}
         <br>
+        </div>
 
       </header>
       <section>

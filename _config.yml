@@ -1,15 +1,15 @@
 # Basic Information
 title: Mingqi Liu
-position: Postdoctoral Scholar
-affiliation: University of Southern California
-affiliation_link: https://dornsife.usc.edu/earth/
+position: Postdoc
+affiliation: École Normale Supérieure - PSL
+affiliation_link: https://www.ens.psl.eu/
+affiliation_logo: https://www.ens.psl.eu/sites/default/files/logo_ens_psl_en_png.png
 email: liumq12@outlook.com
 
 # Search Engine Optimization (SEO)
-keywords: mingqi liu, liu mingqi, mingqiliu, liumingqi, tectonics, earthquake modeling, DAS seismology, fault mechanics
-canonical: https://dornsife.usc.edu/profile/mingqi-liu/
-affiliation_logo: ./assets/img/USC_Logo.svg
-description: Mingqi Liu is a Postdoctoral Scholar at the University of Southern California, specializing in tectonic deformation, earthquake simulation, and planetary evolution.
+keywords: mingqi liu, geodynamics, earthquake physics, numerical modeling, planetary tectonics, lithospheric dynamics, fault mechanics
+canonical: https://liumq12.github.io
+description: Mingqi Liu is a postdoctoral researcher at ENS-PSL working on geodynamics, earthquake physics, numerical modeling, and planetary tectonics.
 
 # Template Options
 enable_last_update: false   # Enable to display the last updated timestamp
@@ -18,6 +18,7 @@ enable_last_update: false   # Enable to display the last updated timestamp
 link_type: icon # Options: text or icon
 google_scholar: https://scholar.google.com/citations?user=kEc2UMgAAAAJ&hl=en
 github_link: https://github.com/liumq12
+orcid: https://orcid.org/0000-0003-4488-4824
 # linkedin: https://www.linkedin.com/in/mingqi-liu/ # Example placeholder
 # twitter: https://twitter.com/mingqi_liu # Example placeholder
 

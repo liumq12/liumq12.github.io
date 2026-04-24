@@ -1,32 +1,68 @@
 main:
 
+  - title: "Dynamic segmentation of the Sagaing fault"
+    authors: Mingqi Liu, Benchun Wang, Sercan Guvercin, Zheng Li, Teng Wang, Cheng Liu, Lu Ji, Sylvain Barbot
+    journal_short: Science
+    journal: Science, accepted, 2026
+    pdf: https://science.org/doi/10.1126/science.ady3237
+    accepted: true
+
+  - title: "Deciphering grain-size reduction as a driver of mid-lithosphere discontinuity formation"
+    authors: Mingqi Liu, Taras Gerya, Zhong-Hai Li, Liang Chen, James Connolly
+    journal_short: Sci Adv
+    journal: Science Advances, accepted, 2026
+    pdf: https://doi.org/10.1126/sciadv.aed4229
+    image: ../assets/teaser/Liu_2026_MLD.jpg
+    accepted: true
+    selected: true
+
   - title: "Role of hydrothermal alteration and thermally activated healing on earthquake dynamics along oceanic transform faults"
-    authors: Mingqi Liu*, Sylvain Barbot
+    authors: Mingqi Liu, Sylvain Barbot
     journal_short: EPSL
-    journal: Earth and Planetary Science Letters, 2025
-    pdf: https://authors.elsevier.com/a/1mDmS,Ig4cmC-
+    journal: Earth and Planetary Science Letters, 2026
+    pdf: https://www.sciencedirect.com/science/article/abs/pii/S0012821X25005631
     image: ../assets/teaser/Liu_2025_OTF.png
+    accepted: true
+    selected: true
+
+  - title: "Large megathrust earthquakes in cold mantle wedge corners under lawsonite blueschist facies"
+    authors: Hao Zhang, Sylvain Barbot, Zhigang Yang, Mingqi Liu, Le Zhang, John Platt
+    journal_short: NC
+    journal: Nature Communications, 2026
+    pdf: https://doi.org/10.1038/s41467-026-70315-4
+    accepted: true
 
   - title: "The Effect of Brittle-Ductile Weakening on the Formation of Faulting Patterns at Mid-Ocean Ridges"
-    authors: Mingqi Liu*, Taras Gerya, Antoine Rozel
+    authors: Mingqi Liu, Taras Gerya, Antoine Rozel
     journal_short: Tectonics
     journal: Tectonics, 2025
     pdf: https://doi.org/10.1029/2024TC008586
     image: ../assets/teaser/Liu_2025_MOR.png
+    selected: true
 
   - title: "Forced Subduction Initiation Near Spreading Centers: Effects of Brittle-Ductile Damage"
-    authors: Mingqi Liu*, Taras Gerya
+    authors: Mingqi Liu, Taras Gerya
     journal_short: JGR - Solid Earth
     journal: JGR - Solid Earth, 2023
-    pdf: https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2022JB024701
+    pdf: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022JB024701
     image: ../assets/teaser/Liu_2022_JGR.png
+    selected: true
 
   - title: "Self-organization of magma supply controls crustal thickness variation and tectonic pattern along melt-poor mid-ocean ridges"
-    authors: Mingqi Liu*, Taras Gerya, Antoine Billy Rozel
+    authors: Mingqi Liu, Taras Gerya, Antoine Billy Rozel
     journal_short: EPSL
     journal: Earth and Planetary Science Letters, 2022
-    pdf: https://www-sciencedirect-com.libproxy2.usc.edu/science/article/pii/S0012821X22001182
+    pdf: https://www.sciencedirect.com/science/article/pii/S0012821X22001182
     image: ../assets/teaser/Liu_2022_EPSL.jpg
+    selected: true
+
+  - title: "Vertical tearing of subducting plates controlled by geometry and rheology of oceanic plates"
+    authors: Yaguang Chen, Hanlin Chen, Mingqi Liu, Taras Gerya
+    journal_short: NC
+    journal: Nature Communications, 2023
+    pdf: https://www.nature.com/articles/s41467-023-43804-z
+    image: ../assets/teaser/Liu_2023_tear.png
+    selected: true
 
   - title: "Low-degree mantle melting controls the deep seismicity and explosive volcanism of the Gakkel Ridge"
     authors: Ivan Koulakov, Vera Schlindwein, Mingqi Liu, Taras Gerya, Andrey Jakovlev, Aleksey Ivanov
@@ -34,13 +70,7 @@ main:
     journal: Nature Communications, 2022
     pdf: https://www.nature.com/articles/s41467-022-30797-4
     image: ../assets/teaser/Liu_2022_NC.png
-
-  - title: "Vertical tearing of subducting plates controlled by geometry and rheology of oceanic plates"
-    authors: Yaguang Chen, Hanlin Chen*, Mingqi Liu*, Taras Gerya*
-    journal_short: NC
-    journal: Nature Communications, 2023
-    pdf: https://www.nature.com/articles/s41467-023-43804-z
-    image: ../assets/teaser/Liu_2023_tear.png
+    selected: true
 
   - title: "Dynamics of thinning and destruction of the continental cratonic lithosphere: Numerical modeling"
     authors: Mingqi Liu, Zhonghai Li
@@ -48,10 +78,12 @@ main:
     journal: Science China Earth Sciences, 2018
     pdf: https://link.springer.com/article/10.1007/s11430-017-9184-x
     image: ../assets/teaser/Liu_2018_SCES.png
+    selected: true
 
   - title: "Diapir versus along-channel ascent of crustal material during plate convergence: Constrained by the thermal structure of subduction zones"
     authors: Ming-Qi Liu, Zhong-Hai Li, Shao-Hua Yang
     journal_short: JAES
     journal: Journal of Asian Earth Sciences, 2017
-    pdf: https://drive.google.com/file/d/1D6ikD5eQ3STtQ0y34d6QCd48ELX-nFAT/view
+    pdf: https://www.sciencedirect.com/science/article/abs/pii/S1367912017300901
     image: ../assets/teaser/Liu_2017_JAES.png
+    selected: true

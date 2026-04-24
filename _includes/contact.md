@@ -1,27 +1,12 @@
-<section id="contact" style="padding: 60px 20px; text-align: center;">
-  <h2 style="margin-bottom: 20px; font-size: 1.8em; color: #222;">Contact</h2>
-  
-  <div style="max-width: 600px; margin: 0 auto; background: #fff; padding: 25px 30px; 
-              border-radius: 10px; box-shadow: 0 6px 16px rgba(0,0,0,0.08); 
-              font-size: 1em; line-height: 1.6; color: #333;">       
-    <p style="margin: 12px 0;">
-      <strong>Email:</strong> 
-      <a href="mailto:liumq12@outlook.com" 
-         style="color: #0056b3; text-decoration: none; font-weight: 500;">
-         liumq12@outlook.com
-      </a>
-    </p>
-    <!-- Optional future fields -->
-    <!--
-    <p style="margin: 12px 0;">
-      <strong>Mailing Address:</strong><br>
-      3651 Trousdale Pkwy,<br>
-      Los Angeles, CA 90089-0740
-    </p>
-
-    <p style="margin: 12px 0;">
-      <strong>Office Location:</strong> ZHS 158
-    </p>
-    -->
+<div class="section-block" id="contact">
+  <div class="section-heading">
+    <p class="section-kicker">Connect</p>
+    <h2>Contact</h2>
   </div>
-</section>
+
+  <div class="contact-card">
+    <p>Feel free to reach out to discuss research and collaborations.</p>
+    <a class="contact-link" href="mailto:liumq12@outlook.com">liumq12@outlook.com</a>
+    <p class="contact-meta"><a href="https://orcid.org/0000-0003-4488-4824">ORCID: 0000-0003-4488-4824</a></p>
+  </div>
+</div>

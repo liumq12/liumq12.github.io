@@ -1,32 +1,52 @@
-<h2 style="margin: 60px 0 10px; text-align: left;">News</h2>
+<div class="section-block">
+  <div class="section-heading">
+    <p class="section-kicker">Updates</p>
+    <h2>News</h2>
+  </div>
 
-<div style="max-width: 600px; margin: 0 auto; padding: 20px; background: #ffffff; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); border-radius: 8px; font-size: 1em; line-height: 1.6; color: #333;">
-  <ul style="list-style: none; padding: 0; margin: 0;">
+  <div class="timeline">
+    <article class="timeline-item">
+      <div class="timeline-date">Apr. 2026</div>
+      <div class="timeline-body">
+        <strong>New paper in <em>Science Advances</em></strong>
+        <p>
+          <a href="https://www.science.org/doi/10.1126/sciadv.ade4229" rel="noopener" target="_blank">
+            Deciphering grain-size reduction as a driver of mid-lithosphere discontinuity formation
+          </a>
+        </p>
+      </div>
+    </article>
 
-    <li style="margin-bottom: 15px; padding: 10px; border-left: 4px solid #0056b3; background-color: #f1f7ff; border-radius: 5px;">
-      <strong style="color: #333;">[Dec. 2025]</strong>
-      <span style="color: #666;">
-        New paper published in <em>EPSL</em>:
-        <a href="https://authors.elsevier.com/a/1mDmS,Ig4cmC-" style="color: #0056b3; text-decoration: none;">
-          Role of hydrothermal alteration and thermally activated healing on earthquake dynamics along oceanic transform faults
-        </a>
-      </span>
-    </li>
+    <article class="timeline-item">
+      <div class="timeline-date">Dec. 2025</div>
+      <div class="timeline-body">
+        <strong>New paper in <em>EPSL</em></strong>
+        <p>
+          <a href="https://www.sciencedirect.com/science/article/pii/S0012821X25005631" rel="noopener" target="_blank">
+            Role of hydrothermal alteration and thermally activated healing on earthquake dynamics along oceanic transform faults
+          </a>
+        </p>
+      </div>
+    </article>
 
-    <li style="margin-bottom: 15px; padding: 10px; border-left: 4px solid #0056b3; background-color: #f1f7ff; border-radius: 5px;">
-      <strong style="color: #333;">[Jan. 2025]</strong>
-      <span style="color: #666;">
-        New paper published in <em>Tectonics</em>:
-        <a href="https://doi.org/10.1029/2024TC008586" style="color: #0056b3; text-decoration: none;">
-          The Effect of Brittle-Ductile Weakening on the Formation of Faulting Patterns at Mid-Ocean Ridges
-        </a>
-      </span>
-    </li>
+    <article class="timeline-item">
+      <div class="timeline-date">Jan. 2025</div>
+      <div class="timeline-body">
+        <strong>New paper in <em>Tectonics</em></strong>
+        <p>
+          <a href="https://doi.org/10.1029/2024TC008586" rel="noopener" target="_blank">
+            The Effect of Brittle-Ductile Weakening on the Formation of Faulting Patterns at Mid-Ocean Ridges
+          </a>
+        </p>
+      </div>
+    </article>
 
-    <li style="margin-bottom: 0; padding: 10px; border-left: 4px solid #0056b3; background-color: #f1f7ff; border-radius: 5px;">
-      <strong style="color: #333;">[Dec. 2024]</strong>
-      <span style="color: #666;">Happy New Year!!!</span>
-    </li>
-
-  </ul>
+    <article class="timeline-item">
+      <div class="timeline-date">Dec. 2024</div>
+      <div class="timeline-body">
+        <strong>Looking ahead</strong>
+        <p>Happy New Year in Los Angeles!</p>
+      </div>
+    </article>
+  </div>
 </div>
