@@ -27,7 +27,7 @@ permalink: /research/
   </div>
 
   <figure class="overview-figure">
-    <img src="{{ '/assets/img/Research_overview.png' | relative_url }}" alt="Research overview">
+    <img src="{{ '/assets/img/Research_overview.jpg' | relative_url }}" alt="Research overview">
     <figcaption>
       A connected framework spanning ridge evolution, subduction-zone dynamics, transform-fault earthquakes, and planetary-scale tectonic questions.
     </figcaption>
