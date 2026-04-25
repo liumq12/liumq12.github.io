@@ -487,6 +487,13 @@ footer {
   box-shadow: 0 10px 22px rgba(10, 24, 51, 0.08);
 }
 
+.button-secondary:hover {
+  color: rgba(27, 49, 85, 0.98);
+  background: rgba(222, 233, 245, 0.98);
+  border-color: rgba(78, 107, 150, 0.22);
+  box-shadow: 0 12px 24px rgba(10, 24, 51, 0.1);
+}
+
 .hero-metrics {
   display: grid;
   gap: 14px;
