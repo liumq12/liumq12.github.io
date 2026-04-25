@@ -82,21 +82,3 @@ permalink: /biography/
     </article>
   </div>
 </div>
-
-<div class="section-block">
-  <div class="section-heading">
-    <p class="section-kicker">Software</p>
-    <h2>Tools</h2>
-  </div>
-
-  <div class="stack-list">
-    <article class="stack-card">
-      <h3>THERMOBRIX</h3>
-      <p>A MATLAB package for THERMO-baric BRIttle-viscous fault dynamics simulations.</p>
-    </article>
-    <article class="stack-card">
-      <h3>PyELVIS</h3>
-      <p>An in-development Python package for post-processing and visualizing 2D/3D geodynamic models.</p>
-    </article>
-  </div>
-</div>
