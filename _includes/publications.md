@@ -9,7 +9,7 @@
       <li>Liu, M., Wang B., Guvercin S., Li Z., Wang T., Liu C., Ji L., Babrot S. (2026). Dynamic segmentation of the Sagaing fault. In press.</li>
       <li>Liu, M., Wang, B., Wu, B., Guvercin, S., Zhang, L., Yang, Z., Seyler, C., Platt, J., Barbot, S. A rock-centric framework for earthquake dynamics and seismic hazards.</li>
       <li>Chen, Y., Chen, H*., Liu, M*., Gerya, T*., An, K., Lin, X., Yang, H., Shi, X. Grain size reduction-induced ductile weakening controls the evolution of vertical slab tearing.</li>
-      <li>Journeau, C., Thomas, A., Abercrombie, R., Hirao, B., Liu, M., Kuna, V. OBS Data Mining Reveals Seismic Structure and Dynamics of the Blanco Transform Fault, offshore Oregon.</li>
+      <li>Journeau, C., Thomas, A., Abercrombie, R., Hirao, B., Liu, M., Kuna, V. OBS Data Mining Reveals Seismic Structure and Dynamics of the oceanic Blanco Transform Fault, Northeast Pacific.</li>
     </ul>
   </div>
 </div>
