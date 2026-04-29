@@ -57,7 +57,7 @@ main:
     selected: true
 
   - title: "Vertical tearing of subducting plates controlled by geometry and rheology of oceanic plates"
-    authors: Yaguang Chen, Hanlin Chen, Mingqi Liu, Taras Gerya
+    authors: Yaguang Chen, Hanlin Chen*, Mingqi Liu*, Taras Gerya*
     journal_short: NC
     journal: Nature Communications, 2023
     pdf: https://www.nature.com/articles/s41467-023-43804-z

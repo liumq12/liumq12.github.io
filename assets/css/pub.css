@@ -41,6 +41,11 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     box-shadow: none;
 }
 
+.author-highlight {
+    font-weight: 800;
+    color: #11264d;
+}
+
 .pub-plain-list {
     margin: 0;
     padding-left: 1.5rem;
