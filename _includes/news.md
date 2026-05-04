@@ -6,6 +6,16 @@
 
   <div class="timeline">
     <article class="timeline-item">
+      <div class="timeline-date">May 2026</div>
+      <div class="timeline-body">
+        <strong>New journey in Paris</strong>
+        <p>
+          I am starting a new position at the <a href="https://www.geologie.ens.fr/en/geology-laboratory/" rel="noopener" target="_blank">Laboratoire de Géologie</a> de l'<a href="https://www.ens.psl.eu/" rel="noopener" target="_blank">École Normale Supérieure - PSL</a>, focusing on seismicity at mid-ocean ridges.
+        </p>
+      </div>
+    </article>
+
+    <article class="timeline-item">
       <div class="timeline-date">Apr. 2026</div>
       <div class="timeline-body">
         <strong>New paper in <em>Science Advances</em></strong>
