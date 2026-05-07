@@ -6,7 +6,6 @@
 
   <div class="publications">
     <ul class="prep-list">
-      <li><span class="author-highlight">Liu, M.</span>, Wang B., Guvercin S., Li Z., Wang T., Liu C., Ji L., Babrot S. (2026). Dynamic segmentation of the Sagaing fault. In press.</li>
       <li><span class="author-highlight">Liu, M.</span>, Wang, B., Wu, B., Guvercin, S., Zhang, L., Yang, Z., Seyler, C., Platt, J., Barbot, S. A rock-centric framework for earthquake dynamics and seismic hazards.</li>
       <li>Chen, Y., Chen, H*., <span class="author-highlight">Liu, M.*</span>, Gerya, T*., An, K., Lin, X., Yang, H., Shi, X. Grain size reduction-induced ductile weakening controls the evolution of vertical slab tearing.</li>
       <li>Journeau, C., Thomas, A., Abercrombie, R., Hirao, B., <span class="author-highlight">Liu, M.</span>, Kuna, V. OBS Data Mining Reveals Seismic Structure and Dynamics of the oceanic Blanco Transform Fault, Northeast Pacific.</li>
@@ -60,9 +59,10 @@
 
   <div class="publications">
     <ol class="pub-plain-list">
+      <li><span class="author-highlight">Liu, M.</span>, Wang B., Guvercin S., Li Z., Wang T., Liu C., Ji L., Babrot S. (2026). Dynamic segmentation of the Sagaing fault. <em>Science</em>. DOI: 10.1126/science.ady3237</li>
       <li><span class="author-highlight">Liu, M.</span>, Gerya, T. V., Li, Z. H., Chen, L., &amp; Connolly, J. A. (2026). Deciphering grain-size reduction as a driver of mid-lithosphere discontinuity formation. <em>Science Advances</em>, 12(17), eaed4229.</li>
       <li><span class="author-highlight">Liu, M.</span>, Barbot, S. (2026). Role of hydrothermal alteration and thermally activated healing on earthquake dynamics along oceanic transform faults. <em>Earth and Planetary Science Letters</em>, 675, 119765.</li>
-      <li>Zhang, H., Batbot, S., Yang, Z., <span class="author-highlight">Liu, M.</span>, Zhang, L., Platt, J. (2026). Large megathrust earthquakes in cold mantle wedge corners under lawsonite blueschist facies. <em>Nature Communications</em>. DOI: 10.1038/s41467-026-70315-4</li>
+      <li>Zhang, H., Batbot, S., Yang, Z., <span class="author-highlight">Liu, M.</span>, Zhang, L., Platt, J. (2026). Large megathrust earthquakes in cold mantle wedge corners under lawsonite blueschist facies. <em>Nature Communications</em>, 17, 4007. DOI: 10.1038/s41467-026-70315-4</li>
       <li><span class="author-highlight">Liu, M.</span>, Gerya, T., &amp; Rozel, A. (2025). The effect of brittle-ductile weakening on the formation of faulting patterns at mid-ocean ridges. <em>Tectonics</em>, 44(2), e2024TC008586.</li>
       <li>Chen, Y., Chen, H.*, <span class="author-highlight">Liu, M.*</span>, Gerya, T*. (2023). Vertical tearing of subducting plates controlled by geometry and rheology of oceanic plates. <em>Nature Communications</em>, 14(1), 7931. (Corresponding author).</li>
       <li><span class="author-highlight">Liu, M.</span>, Gerya, T. (2023). Forced subduction initiation near spreading centers: Effects of brittle-ductile damage. <em>Journal of Geophysical Research: Solid Earth</em>, 128(2), e2022JB024701.</li>

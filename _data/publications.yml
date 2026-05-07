@@ -1,11 +1,13 @@
 main:
 
   - title: "Dynamic segmentation of the Sagaing fault"
-    authors: Mingqi Liu, Benchun Wang, Sercan Guvercin, Zheng Li, Teng Wang, Cheng Liu, Lu Ji, Sylvain Barbot
+    authors: Liu, M., Wang B., Guvercin S., Li Z., Wang T., Liu C., Ji L., Babrot S.
     journal_short: Science
-    journal: Science, accepted, 2026
+    journal: Science, 2026
     pdf: https://science.org/doi/10.1126/science.ady3237
+    image: ../assets/teaser/Liu_2026_SCI.jpg
     accepted: true
+    selected: true
 
   - title: "Deciphering grain-size reduction as a driver of mid-lithosphere discontinuity formation"
     authors: Mingqi Liu, Taras Gerya, Zhong-Hai Li, Liang Chen, James Connolly
