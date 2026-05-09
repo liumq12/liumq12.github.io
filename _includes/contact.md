@@ -6,7 +6,7 @@
 
   <div class="contact-card">
     <p>Feel free to reach out to discuss research and collaborations.</p>
-    <a class="contact-link" href="mailto:liumq12@outlook.com">liumq12@outlook.com</a>
+    <p class="contact-link">liumq12@outlook.com &nbsp;|&nbsp; liumq@geologie.ens.fr</p>
     <p class="contact-meta"><a href="https://orcid.org/0000-0003-4488-4824">ORCID: 0000-0003-4488-4824</a></p>
   </div>
 </div>
