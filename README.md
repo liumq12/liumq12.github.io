@@ -17,3 +17,12 @@ bundle exec jekyll server
 ```
 Open your browser and go to http://localhost:4000.
 Generated HTML files will be saved in the _site folder.
+
+### Push to GitHub
+
+```bash
+git status
+git add .
+git commit -m "Update XXX"
+git push
+```

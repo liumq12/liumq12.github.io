@@ -57,6 +57,26 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     color: #2b3545;
 }
 
+.pub-plain-list li.pub-divider {
+    list-style: none;
+    margin: 1.8rem 0 1.1rem -1.5rem;
+    padding: 0;
+}
+
+.pub-plain-list li.pub-divider span {
+    display: inline-block;
+    padding: 0.38rem 0.9rem;
+    border-radius: 999px;
+    background: linear-gradient(135deg, rgba(17, 38, 77, 0.96), rgba(44, 104, 180, 0.82));
+    color: #fff8ec;
+    font-family: "Manrope", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    box-shadow: 0 10px 24px rgba(9, 22, 47, 0.14);
+}
+
 .publications h1 { color: var(--global-theme-color); font-size: 2rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
 
 .publications h2 { margin-bottom: 1rem; }
